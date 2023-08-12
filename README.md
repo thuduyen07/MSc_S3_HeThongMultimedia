@@ -170,5 +170,57 @@ the flow
 2. adhoc
 3. Q&A: retrieve and answer specific question
 
+## 120823
+
+Giới thiệu biến đổi Fourier và miền tần số
+
+Biến đổi Fourier (từ tín hiệu về các hàm sin)
+
+Biến đổi Fourier nghịch (hàm cơ sở về tín hiệu)
+
+Wavelet
+
+high-pass thể hiện các chi tiết
+
+low-pass thể hiện 
+
+Sử dụng xử lý tín hiệu số cho detect các đối tượng khó phân tách trong xử lí ảnh y khoa -> *thử dùng để tách vùng bất thường trong ảnh*
+
+Khi segment, thử tách A và phi trong tín hiệu ra, giữ lại phi để dữ lại dáng đối tượng
+
+Fourier trong dự đoán giá cổ phiếu =)))
+
+### Histogram and Color Balance
+
+Color space:
+- RGB
+- HSV
+
+Histogram: đếm tần suất xuất hiện các giá trị màu
+
+Histogram equalization
+
+Histogram specification
+
+=> Dùng hisogram để phân biệt các logo gần giống nhau để kiểm định logo lúc đăng kí logo ~ list được các logo gần giống nhau
+
+Giới thiệu image pyramid: chia ra nhiều vùng gồm nhiều level khác nhau @@
+- [GraphCut](https://github.com/NathanZabriskie/GraphCut)
+
+Giới thiệu Segmentation:
+- Semantic
+- Intance
+
+Blending:
+- Poison blending (2003) chạy nhanh và ổn, cơ chế: cắt dán vector gradient -> giữ lại vector gradient của đối tượng thay vì giữ lại màu, kết quả khá tự nhiên nhưng đổ bóng sẽ bị sai do hướng đổ bóng bị đổi do ảnh hưởng của việc áp gradient của đối tượng lên nền
+
+
+Dặn dò: Triển khai một công cụ để visual search 
+- năm ngoái dùng [fiftyone](https://docs.voxel51.com/)
+- hội nghị RIVF23 vẫn còn đang nhận bài đợt 2 :'> (deadline 30.08)
+- hội nghị SOICT 2023 (deadline 05.09 có thể kéo đến 15) -- có 1 track dễ nộp bài: lifelog event retrieval
+- t7 26.08: bảo vệ luận chương trình tiên tiến, hội đồng ngon nên đi dự :v
+
+
 ## Final project - Mobile image retrieval app
 [MobileNetV3]
