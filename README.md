@@ -223,4 +223,5 @@ Dặn dò: Triển khai một công cụ để visual search
 
 
 ## Final project - Mobile image retrieval app
-[MobileNetV3]
+[MobileNetV3](https://keras.io/api/applications/mobilenet/)
+
