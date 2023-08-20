@@ -221,6 +221,19 @@ Dặn dò: Triển khai một công cụ để visual search
 - hội nghị SOICT 2023 (deadline 05.09 có thể kéo đến 15) -- có 1 track dễ nộp bài: lifelog event retrieval
 - t7 26.08: bảo vệ luận chương trình tiên tiến, hội đồng ngon nên đi dự :v
 
+## 200823
+ Giới thiệu superpixel 
+ ![superpixel](superpixel.png)
+
+ https://courses.engr.illinois.edu/cs445/fa2022/lectures/Lecture%2019%20-%20Object%20Recognition%20and%20Augmented%20Reality%20-%20Online.pptx
+
+![supervoxel](supervoxel.png)
+
+https://openaccess.thecvf.com/content_cvpr_2018/papers/Jin_Learning_to_Extract_CVPR_2018_paper.pdf
+
+![motion-blur](motion_blur.png)
+
+
 
 ## Final project - Mobile image retrieval app
 [MobileNetV3](https://keras.io/api/applications/mobilenet/)
