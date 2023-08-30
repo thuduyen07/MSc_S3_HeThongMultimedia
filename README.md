@@ -233,6 +233,115 @@ https://openaccess.thecvf.com/content_cvpr_2018/papers/Jin_Learning_to_Extract_C
 
 ![motion-blur](motion_blur.png)
 
+## 270823
+Trí tuệ nhân tạo và phát sinh nội dung (AI and Generative AI)
+
+Mis-information: hiểu nhầm, hiểu sai về một câu văn nào đó hoặc vấn đề nào đó - thông tin không đầy đủ, không chính xác một cách không có chủ đích (vô tình)
+
+Dis-information: thông tin không đầy đủ, không chính xác một cách có chủ đích
+
+Giới thiệu DeepFakeApp
+
+Một số từ khoá: DeepFake, Faceswap (dán gương mặt người này vào vùng gương mặt người khác (texture)), face reenactment (dán chuyển động trên gương mặt)
+
+Một số bài toán phát hiện deepfake đang chuyển sang gợi ý bất thường trong video hay hình ảnh. Nhưng vẫn gặp một số thách thức như mặt thật nhưng cà app nhiều quá, hoặc gắn thêm filter, backgound các thứ. 
+
+Một số bài toán:
+- openforensics: https://sites.google.com/view/ltnghia/research/openforensics?utm_source=zalo&utm_medium=zalo&utm_campaign=zalo
+    - xác định thanh media của video đang chạy =))
+    - xác định các đốm sáng và dải sáng phản chiếu do sử dụng các thiết bị điện tử để để ảnh lên và replace
+- Image Realistic
+- Image ballistic: 
+    - reverse image search: tìm xem một hình ảnh đã từng xuất hiện trong các bài post (kể cả đã xoá)
+- File forensics: https://namesleuth.fotoverifier.eu/
+    - source tracing
+        - cryp analysis
+    - filename inspection
+    - existence confirmation
+    - additional information
+
+Giới thiệu CheapFake
+- dùng hình thật nhưng đưa tin theo ngữ cảnh khác không giống với mục đích ban đầu, gọi là out-of-context (OOC)
+- bài toán: có ít nhất 2 bài post chứa bức ảnh thật đang có nhưng nội dung khác nhau -> gợi ý có bất ổn
+- Từ khoá: COSMOS - paper cho bài toán cơ bản của cheapfake -- ngược lại với proẹct đang làm:
+    - bounding box cho các đối tượng trong ảnh được nhắc đến trong câu hoặc đoạn văn. -> dùng độ đo đánh giá là IoU do dùng bounding box
+    - xem từng vùng của câu mô tả trỏ tới các vùng khác nhau trong bức ảnh -> thảy ra cảnh báo đồ :'>
+    - nếu các vùng được trỏ đến giao nhau đủ lớn -> 
+
+ảnh gốc -> dùng -> tạo prompts nội dung ảnh -> dùng promts tạo lại ảnh -> train model để có ảnh gốc thành ảnh chế như một vòng lặp
+
+Giới thiệu project origin -> bảo vệ nội dung từ gốc: trong trường hợp sau này không phân biệt thật giả được nữa :>
+
+Giới thiệu đồ án cuối kỳ 
+![ProjectRequirement](image-1.png)
+- Chỉ nộp report và nêu rõ contribute của cả nhóm cũng như contribute của từng thành viên một cách rõ ràng do không có phần vấn đáp để giải thích
+- Yêu cầu dự án hoàn thiện, có đóng góp mới và chỉn chu
+- một số gợi ý:
+    - tô màu cho tranh 
+    - tái hiện lại các kiến trúc, công trình
+    - sáng tạo truyện tranh (kết hợp nlp và ipcv)
+    - thay đổi chó thành khỉ bằng âm thanh
+    - xây dựng mô hình 3d của đối tượng nào đó từ 1 ảnh (liên quan đến motion mapper)
+    - tìm đối tượng trong ảnh bằng text
+    - làm game tìm đồ vật trong hình
+    - ứng dụng tách và tìm thông tin thành phần món ăn của ảnh chụp món ăn
+    - object tracking
+    - synthesize dữ liệu: create new dataset, ứng dụng sinh dữ liệu (sinh ảnh từ text)
+    - phát thanh viên ảo: nhập vào văn bản, mặt của mình và giọng nói của mình -> tạo thành một video thời sự mà mình làm phát thanh viên :))
+    - living portraits
+    - ứng dụng nhìn xuyên mặt đất, mở cổng không gian qua một vùng đất khác
+    - sodar: ứng dụng đo khoảng cách thực tế qua camera
+    - ứng dụng kiểm tra một đồ vật nội thất khi đưa vào một không gian, ví dụ phòng khách nhà mình bằng camera xem có vừa không (khoảng cách) có hợp không ...(liên quan đến AR)
+    - ứng dụng gợi ý thiết kế nội thất
+    - ứng dụng thay đồ ảo (apply tốt trên các ứng dụng bán đồ online)
+    - lấy ý tưởng từ phim doraemon
+    - làm phim hoạt hình từ sketch
+
+**cần sáng tạo, có bước tiến**
+
+deadline: 
+23h59 15/10/2023 -- nộp qua moodle -- up lên gg drive -- bỏ link gg drive vào file text -> nộp. Không xét các link bị cập nhật quá deadline. 
+
+### Multimedia systems - GenAI 
+
+AI > ML > DL > GenAI
+
+LLM $\in$ (DL and GenAI)
+
+![Generative AI](GenAI.png)
+
+Giới thiệu GAN
+
+Giới thiệu họ StyleGAN:
+train mạng từ từ theo resolution và độ sâu mạng tăng dần 
+![StyleGAN](./ProGAN_demo.gif)
+
+Khi kiến trúc tăng -> GPU cần tăng
+
+Giới thiệu Conditional GAN:
+Dữ liệu đầu vào của Gen và Dis ngoài noise còn có điều kiện thêm vào
+[pix2pix cGAN](https://phillipi.github.io/pix2pix/)
+
+Image Super-Resolution:
+![PaddleGAN](./paddleGAN.gif) 
+https://github.com/PaddlePaddle/PaddleGAN
+
+Weather change: de-rain
+
+inpainting: xoá hàng rào, xoá phản chiếu khi chụp xuyên cửa kính
+![](./inpainting.gif)
+
+SPADE:
+- semantic image synthesis
+
+Giới thiệu Imaginaire
+
+Họ style transfer
+- dùng trong các app filter để m
+Giới thiệu Neural Style Transfer
+- $\alpha$*content image + $\beta$*style image -> output
+
+Giới thiệu Arbitrary Style Transfer
 
 
 ## Final project - Mobile image retrieval app
