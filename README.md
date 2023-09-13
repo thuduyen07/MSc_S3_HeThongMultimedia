@@ -347,3 +347,38 @@ Giới thiệu Arbitrary Style Transfer
 ## Final project - Mobile image retrieval app
 [MobileNetV3](https://keras.io/api/applications/mobilenet/)
 
+## AI Challenge 2023 
+### Ref.
+- [Tài liệu hội thi](https://drive.google.com/drive/folders/1IgjaYTVJdJ7YTa_snxMIJHvNH8w2nbvH)
+- [Các truy vấn tham khảo từ AI Challenge 2022
+](https://aic-query.ledo.io.vn/aic22-final/)
+- [Dữ liệu vòng sơ tuyển - Batch 1](https://docs.google.com/spreadsheets/d/1nnfmpsIB2Cm0jatlN10WjwwZvEIvQxctf8_8YKQfXi4/edit#gid=0)
+- [Dữ liệu vong sơ tuyển - Batch 2](https://docs.google.com/spreadsheets/d/1nnfmpsIB2Cm0jatlN10WjwwZvEIvQxctf8_8YKQfXi4/edit#gid=246172816)
+- [Hướng dẫn nộp bài trên hệ thống CodaLab
+](https://docs.google.com/document/d/1EI7AVQeI83ov5Hz-pcUt7GCmx4LbSorLTi_917PI8AM/edit)
+
+## Thông tin
+Ban tổ chức Hội thi gửi đến các đội thi Thông tin dữ liệu làm quen bài toán với hơn 100 giờ gồm 299 video với các thông tin đi kèm tương ứng như sau:
+
+- Videos: Chứa video được cung cấp
+- Keyframes: Chứa tất cả keyframe được trích xuất từ video được cung cấp ở trên. Keyframe sẽ được lưu trong thư mục tương ứng với tên file video, ví dụ: các keyframe của video L01_V001.mp4 sẽ được lưu trong thư mục L01_V001. Tên của các file keyframe lưu theo thứ tự tăng dần, vị trí tương ứng của keyframe xem trong file metadata.
+- Objects: Chứa json tất cả vật thể (object) phát hiện được từ mô hình [Faster RCNN pretrained OpenImagesV4](https://tfhub.dev/google/faster_rcnn/openimages_v4/inception_resnet_v2/1). Chi tiết kết quả từ mô hình phát hiện vật thể có thể xem ví dụ tại đây https://www.tensorflow.org/hub/tutorials/object_detection. Tên file json chứa danh sách các objects tương ứng với tên file keyframe, ví dụ keyframe L01_V001/0000.jpg sẽ có file json chứa thông tin các object là L01_V001/0000.json
+- CLIP features: Chứa thông tin CLIP features của tất cả các frames trong thư mục Keyframes. Tất cả các CLIP features của các keyframe sẽ được lưu thành một file npy duy nhất, với thứ tự của các vector features tăng dần ứng với chỉ số của keyframes.
+- Metadata: Thông tin metadata của video được lấy từ YouTube của kênh cung cấp dữ liệu. Metadata của mỗi video là một file json có tên tương ứng với tên file video. Ví dụ file L01_V001.mp4 sẽ có metadata file là L01_V001.json. Một vài video trong dữ liệu được cung cấp có thể không có file metadata.
+
+### Tập huấn
+Bảng A (sinh viên - thanh niên)
+
+- Buổi 1: https://www.youtube.com/watch?reload=9&v=A0kZ9F_lWAA
+
+- Buổi 2: https://www.youtube.com/watch?v=ftajdFzEHVE
+
+- Buổi 3: https://www.youtube.com/watch?v=G_EFERCBmwc&list=PLFrCvCTyCurMvyhd-plLpViA_jLnaAmJv&index=7
+
+Bảng B (học sinh THPT)
+
+- Buổi 1: https://www.youtube.com/watch?v=VDvIfCDCT-g&list=PLFrCvCTyCurMvyhd-plLpViA_jLnaAmJv&index=4
+
+- Buổi 2: https://www.youtube.com/watch?v=mf_MHbtQCz8&list=PLFrCvCTyCurMvyhd-plLpViA_jLnaAmJv&index=5
+
+- Buổi 3: https://www.youtube.com/watch?v=THLzzYAQK54&list=PLFrCvCTyCurMvyhd-plLpViA_jLnaAmJv&index=3
