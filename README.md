@@ -382,3 +382,45 @@ Bảng B (học sinh THPT)
 - Buổi 2: https://www.youtube.com/watch?v=mf_MHbtQCz8&list=PLFrCvCTyCurMvyhd-plLpViA_jLnaAmJv&index=5
 
 - Buổi 3: https://www.youtube.com/watch?v=THLzzYAQK54&list=PLFrCvCTyCurMvyhd-plLpViA_jLnaAmJv&index=3
+
+## 230923
+
+Giới thiệu các ý tưởng [AI City Challenge 2018](https://www.aicitychallenge.org/2018-challenge-tracks/)
+
+Giới thiệu các ý tưởng về Anomaly Detection
+- tính clean background -> image - background
+
+tại một điểm ảnh, tính distrubution các màu tại điểm ảnh đó, hoặc lưu $\mu$ là giá trị trung bình màu và $\sigma$ là độ lệch chuẩn màu tại vị trí đó
+
+Giới thiệu [iTASK - Intelligent Traffic Analysis Software Kit](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w35/Tran_iTASK_-_Intelligent_Traffic_Analysis_Software_Kit_CVPRW_2020_paper.pdf)
+
+Giới thiệu [A Large-Scale Car Dataset for Fine-Grained Categorization and Verification](https://arxiv.org/pdf/1506.08959.pdf)
+
+Giới thiệu [AI City Challenge 2019](https://www.aicitychallenge.org/2019-challenge/)
+
+- Bài toán Anomaly Event Detection in Traffic video
+- Bài toán Re-Identify Car 
+- Bài toán Traffic Flow Analysis in Vietnam
+
+Giới thiệu [midjourney](https://www.midjourney.com/home/) - một công cụ sinh ảnh khá nổi tiếng
+
+Giới thiệu bài toán Visual Attribute Extraction 
+- Color & Vehicle type
+    - backbone: EfficentNetB4
+- Action - Turn detection
+    - tính diện tích hình đa giác và diện tích quét theo chiều kim đồng hồ, nếu theo chiều kim đồng hôf thì là rẽ phải, ngược lại thì là rẽ trái, nếu diện tích quét nhỏ thì xem như đang đi thẳng
+- Action - Stop detection 
+- Motion Relation
+
+Giới thiệu một tool nhắc command line: https://fig.io/download
+
+tuần sau (khoảng 30/9) học bữa cuối để kí tên kết thúc môn
+
+15/10 nộp bài theo form sẵn
+
+tháng 11: seminar cho khoá cao học - sharing -> làm kỉ yếu 
+
+tạp chí phát triển khoa học công nghệ ĐHQG - chuyên san 
+
+- điền form đăng kí nhóm và đề tài
+
