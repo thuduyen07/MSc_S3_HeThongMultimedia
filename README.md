@@ -424,3 +424,8 @@ tạp chí phát triển khoa học công nghệ ĐHQG - chuyên san
 
 - điền form đăng kí nhóm và đề tài
 
+## 300923
+[Knowledge distillation](https://phamdinhkhanh.github.io/2021/03/13/KnownledgeDistillation.html)
+
+
+
