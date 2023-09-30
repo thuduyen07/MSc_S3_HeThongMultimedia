@@ -427,5 +427,25 @@ tạp chí phát triển khoa học công nghệ ĐHQG - chuyên san
 ## 300923
 [Knowledge distillation](https://phamdinhkhanh.github.io/2021/03/13/KnownledgeDistillation.html)
 
+Query Expansion
 
+Data Augmentation using Generative AI
 
+[Neural Network Matrix Factorization](https://arxiv.org/abs/1511.06443)
+
+------
+[Domain Adaptation](https://en.wikipedia.org/wiki/Domain_adaptation)
+
+[Deep Visual Domain Adaptation: A Survey](https://arxiv.org/pdf/1802.03601.pdf)
+![Domain Adaptation](image-2.png)
+![Domain Adaptation (feature transform??)](image-3.png)
+màu đỏ = indishtinguitable (không thể phân biệt feature đến từ domain nào nữa nhưng vẫn giữ được đặc trưng quan trọng để xử lí bài toán về sau)
+
+chuyển mode ảnh từ các domain khác nhau. ví dụ chuẩn hoá dữ liệu x-quang qua mri hoặc ngược lại trước khi đưa vào mô hình phân loại bệnh
+
+Giới thiệu [THE 1ST WORKSHOP ON SECURITY-CENTRIC STRATEGIES FOR 
+COMBATING INFORMATION DISORDER (SCID)](https://www.scid.tech/)
+
+Giới thiệu về [Khống chế nội dung sinh ra của genAI dùng mạng không chế được (control net)](https://github.com/lllyasviel/ControlNet)
+
+kỹ thuật motion capture
