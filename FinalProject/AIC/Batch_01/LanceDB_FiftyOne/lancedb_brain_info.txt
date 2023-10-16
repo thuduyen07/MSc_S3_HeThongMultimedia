@@ -1,0 +1,15 @@
+{
+    "key": "lancedb_index",
+    "version": "0.21.4",
+    "timestamp": "2023-09-16T08:22:32.486413",
+    "config": {
+        "method": "lancedb",
+        "cls": "fiftyone.brain.internal.core.lancedb.LanceDBSimilarityConfig",
+        "embeddings_field": null,
+        "model": "clip-vit-base32-torch",
+        "patches_field": null,
+        "supports_prompts": true,
+        "table_name": "fiftyone-2023-09-16-15-02-12",
+        "metric": "cosine"
+    }
+}
