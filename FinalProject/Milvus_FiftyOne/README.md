@@ -19,3 +19,5 @@ Chạy các lệnh sau trên terminal tại thư mục đang xét:
 8. Chọn Run các cell 
 
 9. Thay đổi câu query và thực hiện truy vấn
+
+Demo link: https://youtu.be/XkQGZ-LQQYM
